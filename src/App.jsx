@@ -8,7 +8,10 @@ function App() {
   //Aqui deberias agregar los estados y los handlers para los inputs
 
   return (
-    <Form />
+    <>
+       <h1>Ingrese su nombre y su color</h1>
+       <Form />
+    </>
   );
 }
 

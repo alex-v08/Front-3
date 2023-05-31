@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import Card from './Card';
-import "./Form.css";
+import "../css/Form.css";
 
 const Form = () => {
     const [input1, setInput1] = useState('');
@@ -42,7 +42,7 @@ const Form = () => {
           />
         </div>
         <div>
-          <label>Ingrese su Grupo favorito:</label>
+          <label>Ingrese su Color Favorito:</label>
           <input
             type="text"
             value={input2}
