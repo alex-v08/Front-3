@@ -14,7 +14,7 @@ const Form = () => {
         e.preventDefault();
     
    
-        if (input1.trim().length < 3 || input1.trim().startsWith(' ') || input2.length < 6) {
+        if (input1.trim().length < 3 || input1.trim().startsWith(' ') && input2.length < 6) {
           setErrorMessage('Por favor chequea que la información sea correcta');
           setShowCard(false);
           return;
